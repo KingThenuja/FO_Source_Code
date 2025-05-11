@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "futuristicores:deepslate_lead_ore"
+              "name": "futuristicores:deepslate_ruby_ore"
             },
             {
               "type": "minecraft:item",
@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "futuristicores:raw_lead"
+              "name": "futuristicores:raw_ruby"
             }
           ]
         }

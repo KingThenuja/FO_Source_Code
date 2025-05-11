@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 125,
+  "experience": 0.25,
+  "group": "lead",
+  "ingredient": {
+    "item": "futuristicores:deepslate_lead_ore"
+  },
+  "result": {
+    "id": "futuristicores:lead"
+  }
+}

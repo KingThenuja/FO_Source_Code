@@ -1,7 +1,8 @@
 {
   "variants": {
     "": {
-      "model": "futuristicores:block/lead_ore"
+      "model": "futuristicores:block/ruby_ore"
+
     }
   }
 }

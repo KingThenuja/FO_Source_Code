@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "futuristicores:item/lead"
+    "layer0": "futuristicores:item/lead_chisel"
   }
 }

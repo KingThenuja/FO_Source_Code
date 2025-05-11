@@ -1,13 +1,13 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 169,
+  "cookingtime": 168,
   "experience": 0.2,
   "group": "lead",
   "ingredient": {
-    "item": "futuristicores:raw_lead"
+    "item": "futuristicores:raw_ruby"
   },
   "result": {
-    "id": "futuristicores:lead"
+    "id": "futuristicores:ruby"
   }
 }

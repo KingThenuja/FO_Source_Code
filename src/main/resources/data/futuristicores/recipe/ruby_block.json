@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-        "item": "futuristicores:lead"
+        "item": "futuristicores:ruby"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "futuristicores:block_of_lead"
+    "id": "futuristicores:block_of_ruby"
   }
 }

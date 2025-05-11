@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "futuristicores:block_of_lead"
+      "item": "futuristicores:sulfur_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "futuristicores:lead"
+    "id": "futuristicores:sulfur"
   }
 }

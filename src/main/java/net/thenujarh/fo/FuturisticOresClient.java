@@ -1,4 +1,10 @@
 package net.thenujarh.fo;
 
-public class FuturisticOresClient {
+import net.fabricmc.api.ClientModInitializer;
+
+public class FuturisticOresClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+    }
 }

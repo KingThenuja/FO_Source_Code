@@ -1,6 +1,9 @@
 package net.thenujarh.fo;
 
 import net.fabricmc.api.ModInitializer;
+import net.thenujarh.fo.block.ModBlocks;
+import net.thenujarh.fo.item.ModItemGroups;
+import net.thenujarh.fo.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +13,8 @@ public class FuturisticOres implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
 	}
 }

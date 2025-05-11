@@ -2,12 +2,12 @@
   "type": "minecraft:smelting",
   "category": "misc",
   "cookingtime": 269,
-  "experience": 0.3,
+  "experience": 0.5,
   "group": "lead",
   "ingredient": {
-    "item": "futuristicores:raw_lead"
+    "item": "futuristicores:raw_ruby"
   },
   "result": {
-    "id": "futuristicores:lead"
+    "id": "futuristicores:ruby"
   }
 }

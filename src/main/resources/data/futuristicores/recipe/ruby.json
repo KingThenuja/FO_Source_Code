@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "futuristicores:block_of_lead"
+      "item": "futuristicores:block_of_ruby"
     }
   ],
   "result": {
     "count": 9,
-    "id": "futuristicores:lead"
+    "id": "futuristicores:ruby"
   }
 }

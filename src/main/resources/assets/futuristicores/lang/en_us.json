@@ -1,0 +1,19 @@
+{
+  "item.futuristicores.lead": "Lead Ingot",
+  "item.futuristicores.raw_lead": "Raw Lead",
+  "item.futuristicores.sulfur": "Sulfur Crystal",
+  "item.futuristicores.raw_ruby": "Raw Ruby",
+  "item.futuristicores.ruby": "Ruby",
+  "block.futuristicores.block_of_lead": "Block of Lead",
+  "block.futuristicores.block_of_raw_lead": "Block of Raw Lead",
+  "item.futuristicores.lead_items": "Futuristic Ores Item Tab",
+  "block.futuristicores.lead_ore": "Lead Ore",
+  "block.futuristicores.sulfur_ore": "Sulfur Ore",
+  "block.futuristicores.sulfur_block": "Sulfur Block",
+  "block.futuristicores.deepslate_lead_ore": "Deepslate Lead Ore",
+  "item.futuristicores.lead_chisel": "Lead Chisel",
+  "block.futuristicores.ruby_ore": "Ruby Ore",
+  "block.futuristicores.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.futuristicores.block_of_ruby": "Ruby Block",
+  "block.futuristicores.block_of_raw_ruby": "Raw Ruby Block"
+}
