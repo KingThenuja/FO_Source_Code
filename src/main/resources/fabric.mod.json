@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "futuristicores",
+	"version": "${version}",
+	"name": "Futuristic Ores",
+	"description": "Adds modern ores to minecraft (ex. Lead, Sulfur, Ruby, etc.) and all of them have tools variant and some of them also have armor varaints",
+	"authors": [
+		"Thenuja Roosandu Hewapathirana -AKA- King_Thenuja"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/King_Thenuja",
+		"sources": "*"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/futuristicores/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.thenujarh.fo.FuturisticOres"
+		],
+		"fabric-datagen": [
+			"net.thenujarh.fo.FuturisticOresDataGenerator"
+		],
+		"client": [
+			"net.thenujarh.fo.FuturisticOresClient"
+		]
+	},
+	"mixins": [
+		"futuristicores.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "https://modrinth.com/datapack/better-netherite-and-smithing-crafting-recipe"
+	}
+}
