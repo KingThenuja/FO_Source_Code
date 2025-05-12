@@ -23,6 +23,7 @@ public class LeadChiselItem extends Item {
                     ModBlocks.LEAD_ORE, ModBlocks.DEEPSLATE_LEAD_ORE
 
             );
+
     public LeadChiselItem(Settings settings) {
         super(settings);
     }

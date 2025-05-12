@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 import net.thenujarh.fo.FuturisticOres;
 import net.thenujarh.fo.item.custom.LeadChiselItem;
 
-public class ModItems  {
+public class ModItems {
 
     public static final Item LEAD = registerItem("lead", new Item(new Item.Settings()));
     public static final Item RAW_LEAD = registerItem("raw_lead", new Item(new Item.Settings()));
@@ -19,7 +19,7 @@ public class ModItems  {
     public static final Item LEAD_CHISEL = registerItem("lead_chisel", new LeadChiselItem(new Item.Settings().maxDamage(32)));
 
 
-    private static Item registerItem(String name, Item item){
+    private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FuturisticOres.MOD_ID, name), item);
     }
 

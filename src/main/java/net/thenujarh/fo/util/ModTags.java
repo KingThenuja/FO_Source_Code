@@ -10,19 +10,21 @@ import net.thenujarh.fo.FuturisticOres;
 public class ModTags {
     public static class Blocks {
 
-        private static TagKey<Block> createTag(String name){
+        private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(FuturisticOres.MOD_ID, name));
         }
     }
+
     public static class Items {
         //public static final TagKey<Item> TRANSFORMABLE_ITEMS = createTag("transformable_items");
 
-        private static TagKey<Item> createTag(String name){
+        private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(FuturisticOres.MOD_ID, name));
         }
 
     }
-        private static TagKey<Item> createTag(String name){
-            return TagKey.of(RegistryKeys.ITEM, Identifier.of(FuturisticOres.MOD_ID, name));
+
+    private static TagKey<Item> createTag(String name) {
+        return TagKey.of(RegistryKeys.ITEM, Identifier.of(FuturisticOres.MOD_ID, name));
     }
 }

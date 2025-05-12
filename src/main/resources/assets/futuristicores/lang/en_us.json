@@ -4,16 +4,34 @@
   "item.futuristicores.sulfur": "Sulfur Crystal",
   "item.futuristicores.raw_ruby": "Raw Ruby",
   "item.futuristicores.ruby": "Ruby",
+  "item.futuristicores.lead_chisel": "Lead Chisel",
+  "item.futuristicores.lead_items": "Futuristic Ores Item Tab",
+
   "block.futuristicores.block_of_lead": "Block of Lead",
   "block.futuristicores.block_of_raw_lead": "Block of Raw Lead",
-  "item.futuristicores.lead_items": "Futuristic Ores Item Tab",
+
   "block.futuristicores.lead_ore": "Lead Ore",
   "block.futuristicores.sulfur_ore": "Sulfur Ore",
   "block.futuristicores.sulfur_block": "Sulfur Block",
   "block.futuristicores.deepslate_lead_ore": "Deepslate Lead Ore",
-  "item.futuristicores.lead_chisel": "Lead Chisel",
   "block.futuristicores.ruby_ore": "Ruby Ore",
   "block.futuristicores.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.futuristicores.block_of_ruby": "Ruby Block",
-  "block.futuristicores.block_of_raw_ruby": "Raw Ruby Block"
+  "block.futuristicores.block_of_raw_ruby": "Raw Ruby Block",
+
+  "block.futuristicores.lead_stairs": "Lead Stairs",
+  "block.futuristicores.lead_slabs": "Lead Slabs",
+  "block.futuristicores.lead_button": "Lead Button",
+  "block.futuristicores.lead_pressure_plate": "Lead Pressure Plate",
+  "block.futuristicores.lead_walls": "Lead Walls",
+  "block.futuristicores.lead_doors": "Lead Doors",
+  "block.futuristicores.lead_trapdoors": "Lead Trapdoors",
+
+  "block.futuristicores.ruby_stairs": "Ruby Stairs",
+  "block.futuristicores.ruby_slabs": "Ruby Slabs",
+  "block.futuristicores.ruby_button": "Ruby Button",
+  "block.futuristicores.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.futuristicores.ruby_walls": "Ruby Walls",
+  "block.futuristicores.ruby_doors": "Ruby Doors",
+  "block.futuristicores.ruby_trapdoors": "Ruby Trapdoors"
 }
