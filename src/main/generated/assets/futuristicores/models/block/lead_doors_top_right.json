@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "futuristicores:block/lead_doors_bottom",
+    "top": "futuristicores:block/lead_doors_top"
+  }
+}

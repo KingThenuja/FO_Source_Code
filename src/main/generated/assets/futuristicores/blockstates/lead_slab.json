@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "futuristicores:block/lead_slab"
+    },
+    "type=double": {
+      "model": "futuristicores:block/block_of_lead"
+    },
+    "type=top": {
+      "model": "futuristicores:block/lead_slab_top"
+    }
+  }
+}

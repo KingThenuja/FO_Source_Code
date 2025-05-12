@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "futuristicores:block/block_of_lead",
+    "side": "futuristicores:block/block_of_lead",
+    "top": "futuristicores:block/block_of_lead"
+  }
+}
