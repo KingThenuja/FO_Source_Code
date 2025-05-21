@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_left_open",
-  "textures": {
-    "bottom": "futuristicores:block/lead_doors_bottom",
-    "top": "futuristicores:block/lead_doors_top"
-  }
-}
