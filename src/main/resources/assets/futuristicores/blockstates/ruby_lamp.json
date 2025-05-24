@@ -1,9 +1,9 @@
 {
   "variants": {
-    "clicked=false": {
+    "lit=false": {
       "model": "futuristicores:block/ruby_lamp"
     },
-    "clicked=true": {
+    "lit=true": {
       "model": "futuristicores:block/ruby_lamp_on"
     }
   }

@@ -11,7 +11,7 @@
     "homepage": "https://modrinth.com/user/King_Thenuja",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "CC0-1.0",
+  "license": "All Rights Reserved",
   "icon": "assets/futuristicores/icon.png",
   "environment": "*",
   "entrypoints": {

@@ -53,7 +53,7 @@ public class ModBlocks {
 
     public static final Block RUBY_LAMP = registerBlock(
             "ruby_lamp", new RubyLampBlock(AbstractBlock.Settings.create()
-                    .strength(1f).requiresTool().luminance(state -> state.get(RubyLampBlock.CLICKED) ? 15 : 0).sounds(BlockSoundGroup.LANTERN))
+                    .strength(1f).requiresTool().luminance(state -> state.get(RubyLampBlock.LIT) ? 15 : 0).sounds(BlockSoundGroup.LANTERN))
 
     );
 

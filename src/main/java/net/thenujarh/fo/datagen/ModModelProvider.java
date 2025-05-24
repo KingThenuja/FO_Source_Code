@@ -34,7 +34,7 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.RUBY_LAMP, blockStateModelGenerator.modelCollector);
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.RUBY_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.RUBY_LAMP)
-                .coordinate(BlockStateModelGenerator.createBooleanModelMap(RubyLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(RubyLampBlock.LIT, lampOnIdentifier, lampOffIdentifier)));
 
     }
 
