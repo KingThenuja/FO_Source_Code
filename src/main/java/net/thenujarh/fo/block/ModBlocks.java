@@ -51,6 +51,10 @@ public class ModBlocks {
     public static final Block RUBY_TRAPDOORS = registerBlock("ruby_trapdoors", new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().nonOpaque().requiresTool().strength(4F, 6F).sounds(BlockSoundGroup.METAL)));
 
 
+
+
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(FuturisticOres.MOD_ID, name), block);

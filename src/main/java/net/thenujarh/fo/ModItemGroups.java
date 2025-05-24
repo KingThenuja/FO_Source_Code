@@ -49,7 +49,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_TRAPDOORS);
                         entries.add(ModBlocks.RUBY_DOORS);
                         entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
-
+                        entries.add(ModBlocks.RUBY_LAMP);
 
                     }).build());
 
