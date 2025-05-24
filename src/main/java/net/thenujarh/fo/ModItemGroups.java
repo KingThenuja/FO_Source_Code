@@ -51,6 +51,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
                         entries.add(ModBlocks.RUBY_LAMP);
 
+                        entries.add(ModItems.LEAD_AXE);
+                        entries.add(ModItems.LEAD_PICKAXE);
+                        entries.add(ModItems.LEAD_SWORD);
+                        entries.add(ModItems.LEAD_SHOVEL);
+
                     }).build());
 
     public static void registerItemGroups() {
