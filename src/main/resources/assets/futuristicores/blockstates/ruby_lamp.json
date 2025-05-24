@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "futuristicores:block/ruby_lamp"
+    },
+    "clicked=true": {
+      "model": "futuristicores:block/ruby_lamp_on"
+    }
+  }
+}

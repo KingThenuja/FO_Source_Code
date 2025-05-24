@@ -11,6 +11,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.thenujarh.fo.FuturisticOres;
+import net.thenujarh.fo.block.custom.RubyLampBlock;
 
 public class ModBlocks {
 
@@ -50,7 +51,11 @@ public class ModBlocks {
     public static final Block RUBY_DOORS = registerBlock("ruby_doors", new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().nonOpaque().requiresTool().strength(4F, 6F).sounds(BlockSoundGroup.METAL)));
     public static final Block RUBY_TRAPDOORS = registerBlock("ruby_trapdoors", new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().nonOpaque().requiresTool().strength(4F, 6F).sounds(BlockSoundGroup.METAL)));
 
+    public static final Block RUBY_LAMP = registerBlock(
+            "ruby_lamp", new RubyLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(RubyLampBlock.CLICKED) ? 15 : 0).sounds(BlockSoundGroup.LANTERN))
 
+    );
 
 
 

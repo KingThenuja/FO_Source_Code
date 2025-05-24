@@ -1,5 +1,5 @@
-[21:03:59] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
-[21:04:00] [main/INFO] (FabricLoader) Loading 55 mods:
+[11:27:58] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[11:27:58] [main/INFO] (FabricLoader) Loading 55 mods:
 	- fabric-api 0.115.6+1.21.1
 	- fabric-api-base 0.4.42+6573ed8c19
 	- fabric-api-lookup-api-v1 1.6.70+b559734419
@@ -55,28 +55,27 @@
 	- java 21
 	- minecraft 1.21.1
 	- mixinextras 0.4.1
-[21:04:00] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/namal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[21:04:00] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[21:04:00] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[21:04:00] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[21:04:01] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21:04:03] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 268 milliseconds
-[21:04:08] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:04:08] [Render thread/INFO] (Minecraft) Setting user: Player236
-[21:04:08] [Render thread/INFO] (futuristicores) Registering Item Groups for futuristicores
-[21:04:08] [Render thread/INFO] (futuristicores) Registering Mod Blocks for futuristicores
-[21:04:08] [Render thread/INFO] (futuristicores) Registering Mod Items for futuristicores
-[21:04:09] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[21:04:09] [Render thread/INFO] (FabricDataGenHelper) Running data generator for futuristicores
-[21:04:09] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Tags for minecraft:block
-[21:04:10] [Render thread/INFO] (Minecraft) Futuristic Ores/Tags for minecraft:block finished after 20 ms
-[21:04:10] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Tags for minecraft:item
-[21:04:10] [Render thread/INFO] (Minecraft) Futuristic Ores/Tags for minecraft:item finished after 0 ms
-[21:04:10] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Block Loot Tables
-[21:04:10] [Render thread/INFO] (Minecraft) Futuristic Ores/Block Loot Tables finished after 14 ms
-[21:04:10] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Model Definitions
-[21:04:10] [Render thread/INFO] (Minecraft) Futuristic Ores/Model Definitions finished after 58 ms
-[21:04:10] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Recipes
-[21:04:10] [Render thread/INFO] (Minecraft) Futuristic Ores/Recipes finished after 38 ms
-[21:04:10] [Render thread/INFO] (Minecraft) All providers took: 134 ms
-[21:04:10] [Render thread/INFO] (Minecraft) Caching: total files: 90, old count: 0, new count: 91, removed stale: 0, written: 90
+[11:27:58] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/namal/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[11:27:58] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[11:27:58] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[11:28:00] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[11:28:01] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 438 milliseconds
+[11:28:07] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:28:07] [Render thread/INFO] (Minecraft) Setting user: Player387
+[11:28:07] [Render thread/INFO] (futuristicores) Registering Item Groups for futuristicores
+[11:28:07] [Render thread/INFO] (futuristicores) Registering Mod Blocks for futuristicores
+[11:28:07] [Render thread/INFO] (futuristicores) Registering Mod Items for futuristicores
+[11:28:07] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[11:28:08] [Render thread/INFO] (FabricDataGenHelper) Running data generator for futuristicores
+[11:28:08] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Tags for minecraft:block
+[11:28:08] [Render thread/INFO] (Minecraft) Futuristic Ores/Tags for minecraft:block finished after 20 ms
+[11:28:08] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Tags for minecraft:item
+[11:28:08] [Render thread/INFO] (Minecraft) Futuristic Ores/Tags for minecraft:item finished after 0 ms
+[11:28:08] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Block Loot Tables
+[11:28:08] [Render thread/INFO] (Minecraft) Futuristic Ores/Block Loot Tables finished after 24 ms
+[11:28:08] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Model Definitions
+[11:28:08] [Render thread/INFO] (Minecraft) Futuristic Ores/Model Definitions finished after 80 ms
+[11:28:08] [Render thread/INFO] (Minecraft) Starting provider: Futuristic Ores/Recipes
+[11:28:09] [Render thread/INFO] (Minecraft) Futuristic Ores/Recipes finished after 67 ms
+[11:28:09] [Render thread/INFO] (Minecraft) All providers took: 195 ms
+[11:28:09] [Render thread/INFO] (Minecraft) Caching: total files: 94, old count: 0, new count: 95, removed stale: 0, written: 94
