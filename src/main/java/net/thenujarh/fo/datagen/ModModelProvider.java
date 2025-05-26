@@ -44,5 +44,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_LEAD, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.LEAD_CHISEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_HAMMER, Models.HANDHELD);
+
     }
 }

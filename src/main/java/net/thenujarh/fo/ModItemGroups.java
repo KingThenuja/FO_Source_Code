@@ -55,6 +55,7 @@ public class ModItemGroups {
                         entries.add(ModItems.LEAD_PICKAXE);
                         entries.add(ModItems.LEAD_SWORD);
                         entries.add(ModItems.LEAD_SHOVEL);
+                        entries.add(ModItems.RUBY_HAMMER);
 
                     }).build());
 

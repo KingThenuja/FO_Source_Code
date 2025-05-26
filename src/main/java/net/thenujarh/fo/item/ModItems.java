@@ -6,6 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.thenujarh.fo.FuturisticOres;
+import net.thenujarh.fo.item.custom.HammerItem;
 import net.thenujarh.fo.item.custom.LeadChiselItem;
 
 public class ModItems {
@@ -35,6 +36,11 @@ public class ModItems {
             new Item.Settings().attributeModifiers
                     (SwordItem.createAttributeModifiers
                             (ModToolMaterials.LEAD, 2, -3.0f))));
+
+    public static final Item RUBY_HAMMER = registerItem("ruby_hammer",
+            new HammerItem(ModToolMaterials.RUBY, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RUBY, 7, -3.4f))));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FuturisticOres.MOD_ID, name), item);
