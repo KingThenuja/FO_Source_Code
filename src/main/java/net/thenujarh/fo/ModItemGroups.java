@@ -55,7 +55,13 @@ public class ModItemGroups {
                         entries.add(ModItems.LEAD_PICKAXE);
                         entries.add(ModItems.LEAD_SWORD);
                         entries.add(ModItems.LEAD_SHOVEL);
+
                         entries.add(ModItems.RUBY_HAMMER);
+
+                        entries.add(ModItems.LEAD_HELMET);
+                        entries.add(ModItems.LEAD_CHESTPLATE);
+                        entries.add(ModItems.LEAD_LEGGINGS);
+                        entries.add(ModItems.LEAD_BOOTS);
 
                     }).build());
 

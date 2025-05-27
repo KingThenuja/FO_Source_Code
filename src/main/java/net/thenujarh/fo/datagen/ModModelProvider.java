@@ -3,7 +3,10 @@ package net.thenujarh.fo.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
+import net.thenujarh.fo.FuturisticOres;
 import net.thenujarh.fo.block.ModBlocks;
 import net.thenujarh.fo.block.custom.RubyLampBlock;
 import net.thenujarh.fo.item.ModItems;
@@ -45,6 +48,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.LEAD_CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEAD_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEAD_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEAD_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEAD_BOOTS));
 
     }
 }

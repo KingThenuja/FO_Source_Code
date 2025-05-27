@@ -41,6 +41,27 @@ public class ModItems {
             new HammerItem(ModToolMaterials.RUBY, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RUBY, 7, -3.4f))));
 
+    /*
+    IRON MAX DAMAGE: 15
+    DIAMOND MAX DAMAGE: 33
+    GOLD MAX DAMAGE: 7
+    NETHERITE MAX DAMAGE: 37 */
+
+    public static final Item LEAD_HELMET = registerItem("lead_helmet",
+            new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(32))));
+
+    public static final Item LEAD_CHESTPLATE = registerItem("lead_chestplate",
+            new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(32))));
+
+    public static final Item LEAD_LEGGINGS = registerItem("lead_leggings",
+            new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(32))));
+
+    public static final Item LEAD_BOOTS = registerItem("lead_boots",
+            new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(32))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FuturisticOres.MOD_ID, name), item);
