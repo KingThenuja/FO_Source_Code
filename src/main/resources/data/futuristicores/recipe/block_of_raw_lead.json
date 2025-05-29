@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
+    "R": {
       "item": "futuristicores:raw_lead"
     }
   },
   "pattern": [
-    "AAA",
-    "AAA",
-    "AAA"
+    "RRR",
+    "RRR",
+    "RRR"
   ],
   "result": {
     "count": 1,

@@ -1,10 +1,30 @@
 {
-  "replace": false,
   "values": [
-    "futuristicores:block_of_lead",
-    "futuristicores:block_of_raw_lead",
     "futuristicores:deepslate_lead_ore",
     "futuristicores:lead_ore",
+    "futuristicores:deepslate_ruby_ore",
+    "futuristicores:ruby_ore",
+    "futuristicores:block_of_lead",
+    "futuristicores:block_of_raw_lead",
+    "futuristicores:block_of_ruby",
+    "futuristicores:block_of_raw_ruby",
+
+    "futuristicores:lead_stairs",
+    "futuristicores:lead_slab",
+    "futuristicores:lead_button",
+    "futuristicores:lead_pressure_plate",
+    "futuristicores:lead_walls",
+    "futuristicores:lead_doors",
+    "futuristicores:lead_trapdoors",
+
+    "futuristicores:ruby_stairs",
+    "futuristicores:ruby_slabs",
+    "futuristicores:ruby_button",
+    "futuristicores:ruby_pressure_plate",
+    "futuristicores:ruby_walls",
+    "futuristicores:ruby_doors",
+    "futuristicores:ruby_trapdoors",
+
     "futuristicores:ruby_lamp"
   ]
 }

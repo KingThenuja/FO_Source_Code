@@ -1,12 +1,8 @@
 {
-  "replace": false,
   "values": [
-    "futuristicores:deepslate_lead_ore",
-    "futuristicores:lead_ore",
     "futuristicores:block_of_lead",
     "futuristicores:block_of_raw_lead",
-    "futuristicores:sulfur_ore",
-    "futuristicores:sulfur_block",
-    "futuristicores:ruby_lamp"
+    "futuristicores:lead_ore",
+    "futuristicores:deepslate_lead_ore"
   ]
 }

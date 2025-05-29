@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smelting",
   "category": "misc",
-  "cookingtime": 269,
-  "experience": 0.3,
+  "cookingtime": 200,
+  "experience": 0.25,
   "group": "lead",
   "ingredient": {
     "item": "futuristicores:raw_lead"

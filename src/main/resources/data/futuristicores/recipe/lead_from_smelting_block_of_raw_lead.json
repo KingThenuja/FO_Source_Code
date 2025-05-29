@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "cookingtime": 100,
+  "cookingtime": 580,
   "experience": 0.25,
   "group": "lead",
   "ingredient": {
-    "item": "futuristicores:raw_lead"
+    "item": "futuristicores:block_of_raw_lead"
   },
   "result": {
     "id": "futuristicores:lead"

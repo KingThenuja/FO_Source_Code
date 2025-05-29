@@ -49,19 +49,17 @@ public class ModItems {
 
     public static final Item LEAD_HELMET = registerItem("lead_helmet",
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(32))));
-
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(27))));
     public static final Item LEAD_CHESTPLATE = registerItem("lead_chestplate",
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(32))));
-
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(27))));
     public static final Item LEAD_LEGGINGS = registerItem("lead_leggings",
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(32))));
-
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(27))));
     public static final Item LEAD_BOOTS = registerItem("lead_boots",
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(32))));
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(27))));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FuturisticOres.MOD_ID, name), item);
