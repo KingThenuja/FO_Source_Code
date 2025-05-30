@@ -34,7 +34,8 @@
   "block.futuristicores.ruby_walls": "Ruby Walls",
   "block.futuristicores.ruby_doors": "Ruby Doors",
   "block.futuristicores.ruby_trapdoors": "Ruby Trapdoors",
-  "block.futuristicores.ruby_lamp": "Ruby Lamp",
+
+  "block.futuristicores.lead_lantern": "Lead Lantern",
 
   "item.futuristicores.lead_sword": "Lead Sword",
   "item.futuristicores.lead_pickaxe": "Lead Pickaxe",
@@ -46,5 +47,4 @@
   "item.futuristicores.lead_chestplate": "Lead Chestplate",
   "item.futuristicores.lead_leggings": "Lead Leggings",
   "item.futuristicores.lead_boots": "Lead Boots"
-
 }

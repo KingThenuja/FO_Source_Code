@@ -63,6 +63,8 @@ public class ModItemGroups {
                         entries.add(ModItems.LEAD_LEGGINGS);
                         entries.add(ModItems.LEAD_BOOTS);
 
+                        entries.add(ModBlocks.LEAD_LANTERN);
+
                     }).build());
 
     public static void registerItemGroups() {

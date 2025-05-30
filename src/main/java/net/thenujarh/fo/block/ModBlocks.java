@@ -2,6 +2,7 @@ package net.thenujarh.fo.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -51,11 +52,20 @@ public class ModBlocks {
     public static final Block RUBY_DOORS = registerBlock("ruby_doors", new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().nonOpaque().requiresTool().strength(4F, 6F).sounds(BlockSoundGroup.METAL)));
     public static final Block RUBY_TRAPDOORS = registerBlock("ruby_trapdoors", new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().nonOpaque().requiresTool().strength(4F, 6F).sounds(BlockSoundGroup.METAL)));
 
-    public static final Block RUBY_LAMP = registerBlock(
-            "ruby_lamp", new RubyLampBlock(AbstractBlock.Settings.create()
-                    .strength(1f).requiresTool().luminance(state -> state.get(RubyLampBlock.LIT) ? 15 : 0).sounds(BlockSoundGroup.LANTERN))
+    public static final Block RUBY_LAMP = registerBlock("ruby_lamp", new RubyLampBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().luminance(state -> state.get(RubyLampBlock.LIT) ? 15 : 0).sounds(BlockSoundGroup.LANTERN)));
 
-    );
+    public static final Block LEAD_LANTERN = registerBlock(
+            "lead_lantern", new LanternBlock(
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.IRON_GRAY)
+                    .solid()
+                    .requiresTool()
+                    .strength(3.5F)
+                    .sounds(BlockSoundGroup.LANTERN)
+                    .luminance(state -> 15)
+                    .nonOpaque()
+                    .pistonBehavior(PistonBehavior.NORMAL)
+            ));
 
 
 
