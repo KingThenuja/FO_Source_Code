@@ -1,10 +1,10 @@
 {
   "variants": {
     "hanging=false": {
-      "model": "futuristicores:block/lead_lantern"
+      "model": "futuristicores:block/lantern/lead_lantern"
     },
     "hanging=true": {
-      "model": "futuristicores:block/lead_lantern_hanging"
+      "model": "futuristicores:block/lantern/lead_lantern_hanging"
     }
   }
 }

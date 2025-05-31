@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/template_lantern",
+	"textures": {
+	  "lantern": "futuristicores:block/lead_lantern",
+	  "particle": "futuristicores:block/lead_lantern"
+	}
+}
