@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.util.Identifier;
 import net.thenujarh.fo.FuturisticOres;
 import net.thenujarh.fo.item.custom.HammerItem;
@@ -60,11 +61,19 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(27))));
 
+    public static final Item KAUPENJOE_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(FuturisticOres.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
+
+
+    private static Item KAUPEN_BOW = registerItem("kaupen_bow",
+            new BowItem(new Item.Settings().maxDamage(500)));
+
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FuturisticOres.MOD_ID, name), item);
     }
-
     public static void registerModItems() {
         FuturisticOres.LOGGER.info("Registering Mod Items for " + FuturisticOres.MOD_ID);
 

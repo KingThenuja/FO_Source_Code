@@ -1,0 +1,9 @@
+{
+  "asset_name": "lead",
+  "description": {
+    "color": "#9090ff",
+    "translate": "trim_material.futuristicores.lead"
+  },
+  "ingredient": "futuristicores:lead",
+  "item_model_index": 1.0
+}

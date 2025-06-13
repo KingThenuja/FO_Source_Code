@@ -2,6 +2,7 @@ package net.thenujarh.fo.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.data.server.recipe.StonecuttingRecipeJsonBuilder;
 import net.thenujarh.fo.FuturisticOres;
 import net.thenujarh.fo.block.ModBlocks;
 import net.thenujarh.fo.item.ModItems;
@@ -39,10 +40,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RAW_LEAD), conditionsFromItem(ModItems.RAW_LEAD))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.LEAD_BUTTON)
+                .pattern("   ")
+                .pattern(" A ")
+                .pattern("   ")
+                .input('A', ModItems.LEAD)
+                .criterion(hasItem(ModItems.LEAD), conditionsFromItem(ModItems.LEAD))
+                .offerTo(exporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_LEAD, 9)
                 .input(ModBlocks.BLOCK_OF_RAW_LEAD)
                 .criterion(hasItem(ModBlocks.BLOCK_OF_RAW_LEAD), conditionsFromItem(ModBlocks.BLOCK_OF_RAW_LEAD))
                 .offerTo(exporter);
+
 
     }
 }

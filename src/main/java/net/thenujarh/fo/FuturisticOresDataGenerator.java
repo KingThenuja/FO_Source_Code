@@ -2,6 +2,7 @@ package net.thenujarh.fo;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.registry.RegistryBuilder;
 import net.thenujarh.fo.datagen.*;
 
 public class FuturisticOresDataGenerator implements DataGeneratorEntrypoint {
@@ -13,5 +14,11 @@ public class FuturisticOresDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModLootTableProvider::new);
         pack.addProvider(ModModelProvider::new);
         pack.addProvider(ModRecipeProvider::new);
+        pack.addProvider(ModRegistryDataGenerator::new);
+    }
+
+    @Override
+    public void buildRegistry(RegistryBuilder registryBuilder) {
+        DataGeneratorEntrypoint.super.buildRegistry(registryBuilder);
     }
 }

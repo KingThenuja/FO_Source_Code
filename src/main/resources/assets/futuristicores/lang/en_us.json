@@ -28,7 +28,7 @@
   "block.futuristicores.lead_trapdoors": "Lead Trapdoors",
 
   "block.futuristicores.ruby_stairs": "Ruby Stairs",
-  "block.futuristicores.ruby_slabs": "Ruby Slabs",
+  "block.futuristicores.ruby_slab": "Ruby Slabs",
   "block.futuristicores.ruby_button": "Ruby Button",
   "block.futuristicores.ruby_pressure_plate": "Ruby Pressure Plate",
   "block.futuristicores.ruby_walls": "Ruby Walls",
@@ -37,14 +37,22 @@
 
   "block.futuristicores.lead_lantern": "Lead Lantern",
 
+  "block.futuristicores.ruby_lamp": "Ruby Lamp",
+
   "item.futuristicores.lead_sword": "Lead Sword",
   "item.futuristicores.lead_pickaxe": "Lead Pickaxe",
   "item.futuristicores.lead_axe": "Lead Axe",
   "item.futuristicores.lead_shovel": "Lead Shovel",
   "item.futuristicores.ruby_hammer": "Hammer",
 
+  "item.futuristicores.kaupen_armor_trim_smithing_template": "Kaupenjoe's Smithing Template",
+
+
   "item.futuristicores.lead_helmet": "Lead Helmet",
   "item.futuristicores.lead_chestplate": "Lead Chestplate",
   "item.futuristicores.lead_leggings": "Lead Leggings",
-  "item.futuristicores.lead_boots": "Lead Boots"
+  "item.futuristicores.lead_boots": "Lead Boots",
+
+  "trim_material.futuristicores.lead": "Lead Material",
+  "trim_pattern.futuristicores.kaupenjoe": "Kaupenjoe's Armor Pattern"
 }

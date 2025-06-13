@@ -2,6 +2,7 @@ package net.thenujarh.fo.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -12,6 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.thenujarh.fo.FuturisticOres;
+import net.thenujarh.fo.block.custom.RefinerBlock;
 import net.thenujarh.fo.block.custom.RubyLampBlock;
 
 public class ModBlocks {
@@ -67,6 +69,17 @@ public class ModBlocks {
                     .pistonBehavior(PistonBehavior.NORMAL)
             ));
 
+    public static final Block REFINING_TABLE = registerBlock(
+            "refining_table",
+            new RefinerBlock(
+                    AbstractBlock.Settings.create()
+                            .instrument(NoteBlockInstrument.BASS)
+                            .strength(2.5F)
+                            .sounds(BlockSoundGroup.WOOD)
+                            .burnable()
+            )
+    );
+
 
 
 
@@ -84,6 +97,26 @@ public class ModBlocks {
         FuturisticOres.LOGGER.info("Registering Mod Blocks for " + FuturisticOres.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(BLOCK_OF_LEAD);
+            fabricItemGroupEntries.add(BLOCK_OF_RAW_LEAD);
+            fabricItemGroupEntries.add(BLOCK_OF_RUBY);
+            fabricItemGroupEntries.add(BLOCK_OF_RAW_RUBY);
+
+            fabricItemGroupEntries.add(LEAD_SLAB);
+            fabricItemGroupEntries.add(LEAD_STAIRS);
+            fabricItemGroupEntries.add(LEAD_DOORS);
+            fabricItemGroupEntries.add(LEAD_TRAPDOORS);
+            fabricItemGroupEntries.add(LEAD_WALLS);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(REFINING_TABLE);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(LEAD_PRESSURE_PLATE);
+            fabricItemGroupEntries.add(LEAD_BUTTON);
+            fabricItemGroupEntries.add(RUBY_PRESSURE_PLATE);
+            fabricItemGroupEntries.add(RUBY_BUTTON);
+            fabricItemGroupEntries.add(RUBY_LAMP);
         });
     }
 }

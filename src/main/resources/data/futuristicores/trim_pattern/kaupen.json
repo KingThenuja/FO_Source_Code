@@ -1,0 +1,8 @@
+{
+  "asset_id": "futuristicores:kaupen",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.futuristicores.kaupen"
+  },
+  "template_item": "futuristicores:kaupen_armor_trim_smithing_template"
+}
