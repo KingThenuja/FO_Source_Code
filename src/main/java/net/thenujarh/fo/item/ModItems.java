@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 import net.thenujarh.fo.FuturisticOres;
 import net.thenujarh.fo.item.custom.HammerItem;
 import net.thenujarh.fo.item.custom.LeadChiselItem;
+import net.thenujarh.fo.sound.ModSounds;
 
 public class ModItems {
 
@@ -61,11 +62,24 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.LEAD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(27))));
 
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet",
+            new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(34))));
+    public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
+            new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(34))));
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
+            new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(34))));
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+            new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(34))));
+
     public static final Item KAUPENJOE_SMITHING_TEMPLATE = registerItem("kaupen_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(FuturisticOres.MOD_ID, "kaupen"), FeatureFlags.VANILLA));
 
 
-    private static Item KAUPEN_BOW = registerItem("kaupen_bow",
+    public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
             new BowItem(new Item.Settings().maxDamage(500)));
 
 
@@ -83,6 +97,22 @@ public class ModItems {
             fabricItemGroupEntries.add(SULFUR);
             fabricItemGroupEntries.add(RUBY);
             fabricItemGroupEntries.add(RAW_RUBY);
+            fabricItemGroupEntries.add(KAUPENJOE_SMITHING_TEMPLATE);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(LEAD_SWORD);
+            fabricItemGroupEntries.add(LEAD_HELMET);
+            fabricItemGroupEntries.add(LEAD_CHESTPLATE);
+            fabricItemGroupEntries.add(LEAD_LEGGINGS);
+            fabricItemGroupEntries.add(LEAD_BOOTS);
+            fabricItemGroupEntries.add(KAUPEN_BOW);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(LEAD_PICKAXE);
+            fabricItemGroupEntries.add(LEAD_AXE);
+            fabricItemGroupEntries.add(LEAD_SHOVEL);
+            fabricItemGroupEntries.add(LEAD_CHISEL);
+            fabricItemGroupEntries.add(RUBY_HAMMER);
         });
     }
 }

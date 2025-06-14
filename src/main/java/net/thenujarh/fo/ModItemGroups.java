@@ -12,7 +12,6 @@ import net.thenujarh.fo.item.ModItems;
 
 public class ModItemGroups {
 
-    //TODO ADD FILES FOR TRIMS
     public static final ItemGroup FUTURISTIC_ORES_ITEMS_TAB = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(FuturisticOres.MOD_ID, "futuristic_ores_items_tab"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.LEAD))
@@ -65,7 +64,8 @@ public class ModItemGroups {
                         entries.add(ModItems.LEAD_BOOTS);
 
                         entries.add(ModItems.KAUPENJOE_SMITHING_TEMPLATE);
-                        entries.add(ModItems.KAUPENJOE_SMITHING_TEMPLATE);
+
+                        entries.add(ModItems.KAUPEN_BOW);
 
                         entries.add(ModBlocks.LEAD_LANTERN);
 

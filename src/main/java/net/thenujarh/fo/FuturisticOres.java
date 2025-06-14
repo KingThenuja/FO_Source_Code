@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.thenujarh.fo.block.ModBlocks;
 import net.thenujarh.fo.component.ModDataComponentTypes;
 import net.thenujarh.fo.item.ModItems;
+import net.thenujarh.fo.sound.ModSounds;
 import net.thenujarh.fo.util.HammerUsageEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,5 +27,6 @@ public class FuturisticOres implements ModInitializer {
         ModItemGroups.registerItemGroups();
         ModBlocks.registerModBlocks();
         ModItems.registerModItems();
+        ModSounds.registerSounds();
     }
 }
